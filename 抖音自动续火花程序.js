@@ -65,7 +65,7 @@ function findUser() {
 function sendMessage() {
   var content = "此处换成你想要发送的文本";
   var from = "";
-  setText(content + " —— " + from);
+  setText(content + from);
   sleep(1000);
 
   var button = desc('发送').findOne();
@@ -117,4 +117,5 @@ function notice(title, content) {
 }
 
 // 启动流程
+
 unlockScreen();
